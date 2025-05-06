@@ -11,6 +11,12 @@ local opts = { noremap = true, silent = true }
 -- save file
 vim.keymap.set('n', '<C-s>', '<cmd> w <CR>', opts)
 
+-- close current buffer
+vim.keymap.set('n', '<leader>jj', '<cmd> bd <CR>', opts)
+
+-- close all but current buffer
+vim.keymap.set('n', '<leader>jk', '<cmd> %bd | e#<CR>', opts)
+
 -- save file without auto-formatting
 vim.keymap.set('n', '<leader>sn', '<cmd>noautocmd w <CR>', opts)
 
@@ -80,3 +86,8 @@ vim.keymap.set('n', '<leader>ml', ':MagmaEvaluateLine<CR>', opts)
 vim.keymap.set('n', '<leader>mr', ':MagmaReevaluateCell<CR>', opts)
 vim.keymap.set('n', '<leader>md', ':MagmaDeleteCell<CR>', opts)
 vim.keymap.set('n', '<leader>mo', ':MagmaShowOutput<CR>', opts)
+
+vim.keymap.set('n', '<leader>pp', '<cmd>!uv run %<CR>', opts)
+
+-- Zenmode
+vim.keymap.set('n', '<leader>jf', ':ZenMode<CR>', opts)
