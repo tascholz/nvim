@@ -8,3 +8,5 @@ To get started and explore this config in detail, check out the video tutorial:
 
 [![Full Neovim Setup from Scratch in 2025
 ](https://img.youtube.com/vi/KYDG3AHgYEs/0.jpg)](https://youtu.be/KYDG3AHgYEs?si=I71UjuoQg2fHLGyu)
+
+Taddaa
