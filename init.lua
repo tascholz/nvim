@@ -16,18 +16,13 @@ vim.opt.rtp:prepend(lazypath)
 -- Set up plugins
 require('lazy').setup {
   require 'plugins.todo',
-  -- require 'plugins.ai_code',
-  require 'plugins.test',
   require 'plugins.alpha',
   require 'plugins.autocompletion',
   require 'plugins.bufferline',
   require 'plugins.centercursor',
   require 'plugins.colortheme',
-  require 'plugins.conform',
   require 'plugins.comment',
-  require 'plugins.debug',
   require 'plugins.files',
-  require 'plugins.git',
   require 'plugins.gitsigns',
   require 'plugins.markdown',
   require 'plugins.mini',
@@ -38,9 +33,6 @@ require('lazy').setup {
   require 'plugins.lualine',
   require 'plugins.misc',
   require 'plugins.neotree',
-  require 'plugins.notes',
-  -- require 'plugins.none-ls', not working anymore
-  require 'plugins.orgmode',
   require 'plugins.telescope',
   require 'plugins.treesitter',
   require 'plugins.ts-autotag',

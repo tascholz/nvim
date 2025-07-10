@@ -1,12 +1,58 @@
-# Neovim Kickstart 2025
+# Plugins
 
-This repo contains my custom Neovim config for 2025, built on the foundation of [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim). This setup is designed to enhance your Neovim experience with modern features and seamless integration.
+## keymaps
+<leader> = space
+- f     Markdown fold selection
+- F     Markdown unfold selection
+- e     Toggle Neotree
+- h     Split horizontally
+- v     Split vertically
+- n     Neogit
+- m     Markdown Preview (doesn't work)
+- /     Fuzzy Search
+- cc     change theme
+- jj    close current buffer
+- jk    close all other buffers
+- jf    zen mode
+- sf    search file
+- ww    open todo app
 
-### Watch the Full Setup Guide
 
-To get started and explore this config in detail, check out the video tutorial:
 
-[![Full Neovim Setup from Scratch in 2025
-](https://img.youtube.com/vi/KYDG3AHgYEs/0.jpg)](https://youtu.be/KYDG3AHgYEs?si=I71UjuoQg2fHLGyu)
 
-Taddaa
+## mini.files
+File tree and manipulation plugin
+Open with :lua MiniFiles.open()
+
+q - close
+= - save changes
+
+## Markdown
+:MarkdownPreview
+
+## Neogit
+<leader>m to open neogit
+
+## TodoComments
+highlights todo comments
+usage:
+'#Todo: comment'
+'#Fix: comment'
+
+## misc
+- alpha => Just a title screen
+- autocompletion
+- bufferline => configurable bufferline
+- lualine => configurable status line
+- centercursor
+- colortheme
+- comment => comment/uncomment code
+- debug
+- gitsigns => shows changes next to line number
+- noice => beautifies the command line
+- indent_blankline => adds indentation guide lines
+- neotree => filetree view
+- zenmode => work without distraction
+
+
+
