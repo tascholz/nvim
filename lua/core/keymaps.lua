@@ -91,3 +91,4 @@ vim.keymap.set('n', '<leader>pp', '<cmd>!uv run %<CR>', opts)
 
 -- Zenmode
 vim.keymap.set('n', '<leader>jf', ':ZenMode<CR>', opts)
+

@@ -1,8 +1,19 @@
 return {
-  'ellisonleao/gruvbox.nvim',
-  priority = 1000,
-  config = function()
-    vim.o.background = 'dark' -- or "light" for light mode
-    vim.cmd [[colorscheme gruvbox]]
-  end,
+  {
+    "nishu-murmu/ThemeSwitch.nvim",
+    config = function()
+        require('ThemeSwitch').setup({
+        
+        })
+    end
+  },
+  {
+    'sainnhe/gruvbox-material',
+    config = function()
+      vim.cmd [[colorscheme gruvbox-material]]
+    end,
+  },
+  {
+    'ingenarel/cyberpunk-neon.nvim',
+  }
 }
