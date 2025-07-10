@@ -80,15 +80,10 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnos
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
--- Magma keymaps
-vim.keymap.set('n', '<leader>me', ':MagmaEvaluateOperator<CR>', opts)
-vim.keymap.set('n', '<leader>ml', ':MagmaEvaluateLine<CR>', opts)
-vim.keymap.set('n', '<leader>mr', ':MagmaReevaluateCell<CR>', opts)
-vim.keymap.set('n', '<leader>md', ':MagmaDeleteCell<CR>', opts)
-vim.keymap.set('n', '<leader>mo', ':MagmaShowOutput<CR>', opts)
-
 vim.keymap.set('n', '<leader>pp', '<cmd>!uv run %<CR>', opts)
 
 -- Zenmode
 vim.keymap.set('n', '<leader>jf', ':ZenMode<CR>', opts)
 
+-- Neogit
+vim.keymap.set('n', '<leader>m', ':Neogit<CR>', opts)
